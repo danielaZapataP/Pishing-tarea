@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html dir=ltr lang=es>
+
+<head>
+	<title> Conexión Oracle Epik EAFIT </title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+	<meta http-equiv="Expires" content="0">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-store">
+	<script language="JavaScript">
+		var sDomain = "";
+		try {
+			document.domain = "";
+		}
+		catch (err) { ; }
+	</script>
+	<style id="ptfb" type="text/css">body{display:none;}</style>
+<script type="text/javascript">
+if (self === top) {
+    var fb = document.getElementById("ptfb");
+    fb.parentNode.removeChild(fb);
+} else {
+    try { 
+        top.location = self.location;
+    } catch(ex) {}
+}
+</script>
+<link rel="stylesheet" type="text/css" href="css/signin.css">
+<script src="./js/signin.js"></script>
+
+	<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="css/css?family=Oswald:300,400,500,600,700">
+<link rel="stylesheet" type="text/css" href="css/css?family=Roboto:400,300,700">
+<link rel="stylesheet" type="text/css" href="css/css?family=Roboto+Condensed">
+<link rel="stylesheet" type="text/css" href="css/css?family=Roboto+Slab">
+<link rel="stylesheet" type="text/css" href="css/css?family=Rubik:400,500,700&display=swap">
+<link rel="stylesheet" type="text/css" href="css/css?family=Raleway:400,500,700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Rubik" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/css2?family=Raleway">
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/form-elements.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- Favicon and touch icons -->
+<link rel="shortcut icon" href="imgs/favicon.jpeg">
+</head>
+
+<body onload="ptSignon().login();">
+
+	<div id="pswrapper">
+		<!-- Top content -->
+		<div class="top-content">
+			<div class="parallax-overlay">
+			</div>
+			
+				<div id="aplicacion" class="AplicacionContainer">
+					<div class="container">
+						<div class="col-xs-12 col-md-12 text-center">
+							<div id="logoU" class="col-xs-12 col-md-2 text-center"> <img
+									src="./imgs/logo-2015.png">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix">
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 col-sm-offset-3">
+							<div class="form-box">
+								<div class="form-bottom">
+									<div class="col" style="text-align: start;">
+										<label class="form-top-left">Inicio de sesión</label>
+									</div>
+									<div class="col" style="text-align: end;">
+										</script>
+										<a class="form-top-right" href="javascript:cambioidioma();">English</a>
+									</div>
+								</div>
+								<div class="form-bottom">
+
+
+										<input type="hidden" id="timezoneOffset" name="timezoneOffset" value="0">
+										<input type="hidden" id="ptmode" name="ptmode" value="f">
+										<input type="hidden" id="ptlangcd" name="ptlangcd" value="ESP">
+										<input type="hidden" id="ptinstalledlang" name="ptinstalledlang" value="ENG,ESP">
+										<div class="signonMain">
+											<div class="ps_signinentry" >            
+											  	<div id="ptloginerrorcont" class="ps_login_error" >
+													<div class="ps_login_error_inner" role="heading" aria-level="2">
+										 				<a id="error_link" name="error_link" tabindex="1"><img src=imgs/PT_LOGIN_ERROR.gif alt="Error"></a>
+												  		<div class="psloginerror" id="discovery_error" name="discovery_error" role="alert" aria-live="assertive" ></div>
+												  		<span class="psloginerror" id="login_error" name="login_error" role="alert" aria-live="assertive"></span>                     
+											 		</div>
+											 		<div class="ps_box-control psloginerror" id="browsercheck_error" name="browsercheck_error" aria-live="assertive" role="alert"></div>
+											  </div>
+
+ 											    <div class="form-usuario_text">
+													<label class="usuario">Usuario</label>
+												</div>
+												<div class="form-group form-usuario-box">
+													<input type="text" id="userid" name="userid" title="ID Usuario"
+														class="form-username form-control">
+												</div>
+												<div class="form-usuario_text">
+													<label class="password">Contraseña</label>
+												</div>
+												<div class="form-group form-usuario-box">
+													<input type="password" id="pwd" name="pwd" title="Contraseña"
+														class=" form-password form-control">
+													<span id= "toogle" toggle="#pwd" onclick="mostrar_ojo()" class="fa fa-fw fa-eye icon_ojo_password toggle-password"></span>
+													<script language="JavaScript">
+														function mostrar_ojo(){
+														  var x = document.getElementById("toogle");
+														  var input = document.getElementById("pwd");
+														  if (input.getAttribute("type") == "password") {
+																input.setAttribute("type", "text");
+														  } else {
+																input.setAttribute("type", "password");
+														  }
+														}
+													</script>
+												</div>
+												<div>
+													<a class="form-olvido-usuario"
+														href="javascript:relocateForgotPass();">¿Olvidaste tu contraseña?</a>
+												</div>
+												<div>
+													<a href="https://www.eafit.edu.co/Paginas/PageNotFoundError.aspx?requestUrl=https://www.eafit.edu.co/institucional/contacto/Paginas/contacto-eafit.aspx">
+														<button class="btn-ingresar">INGRESAR</button>
+													</a>
+												</div>
+												<div>
+													<!--<label class="form-creausuario">¿No tienes una cuenta? <a class="form-creausuario1"	href="javascript:crearusuario();">Crea tu cuenta</a></label>-->
+													<label class="form-creausuario">¿No tienes una cuenta? <a class="form-creausuario1"	href="javascript:httpGetAsync('languageCd=ESP');" id="mainbutton">Crea tu cuenta</a></label>
+												</div>
+											</div>
+																						
+										</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+		</div>
+	</div>
+	<!--FIN pagina de logeo a people -->
+	<div id="fatfooter" class="FatFooterContainer noPrint">
+		<div class="container">
+			<div class="row">
+				<ul class="FatFooter-list u-menu-list col-xs-12 col-sm-3">
+					<li>
+						<h3 class="FatFooter-listTitle">Accesos rápidos</h3>
+					</li>
+					<li><a href="http://www.eafit.edu.co/innovacion">Innovación EAFIT</a></li>
+					<li><a href="http://www.eafit.edu.co/cultura">Cultura</a></li>
+					<li><a href="http://www.eafit.edu.co/biblioteca">Biblioteca</a></li>
+					<li><a href="http://www.eafit.edu.co/virtual">EAFIT Virtual</a></li>
+				</ul>
+				<ul class="FatFooter-list u-menu-list col-xs-12 col-sm-3">
+					<li>
+						<h3 class="FatFooter-listTitle">Escuelas</h3>
+					</li>
+					<li><a href="http://www.eafit.edu.co/escuelas/administracion">Administración</a></li>
+					<li><a href="http://www.eafit.edu.co/escuelas/ingenieria">Ingeniería</a></li>
+					<li><a href="http://www.eafit.edu.co/escuelas/humanidades">Humanidades</a></li>
+					<li><a href="http://www.eafit.edu.co/escuelas/derecho">Derecho</a></li>
+					<li><a href="http://www.eafit.edu.co/escuelas/economiayfinanzas">Economía y Finanzas</a></li>
+					<li><a href="http://www.eafit.edu.co/escuelas/ciencias">Ciencias</a></li>
+				</ul>
+				<ul class="FatFooter-list u-menu-list col-xs-12 col-sm-3">
+					<li>
+						<h3 class="FatFooter-listTitle">¿Qué estudiar?</h3>
+					</li>
+					<li><a href="http://www.eafit.edu.co/pregrados">Pregrados</a></li>
+					<li><a href="http://www.eafit.edu.co/posgrados">Posgrados</a></li>
+					<li><a href="http://www.eafit.edu.co/cec">Educación Permanente</a></li>
+					<li><a href="http://www.eafit.edu.co/idiomas">Idiomas</a></li>
+					<li><a href="http://www.eafit.edu.co/escueladeverano">Cursos de Verano</a></li>
+				</ul>
+				<ul class="FatFooter-list u-menu-list col-xs-12 col-sm-3 col-padding-0">
+					<li>
+						<h3 class="FatFooter-listTitle">Servicios</h3>
+					</li>
+					<li><a href="http://www.eafit.edu.co/estudiantes">Para estudiantes</a></li>
+					<li><a href="http://www.eafit.edu.co/egresados">Para egresados</a></li>
+					<li><a href="http://www.eafit.edu.co/empresas">Para empresas</a></li>
+					<li><a href="http://entrenos.eafit.edu.co/">Para docentes/empleados</a></li>
+					<li><a href="http://www.eafit.edu.co/servicios-en-linea">Aplicaciones web</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<footer id="footer" class="FooterContainer noPrint">
+		<div class="container">
+			<div class="row">
+				<div class="Footer-col1 col-xs-12 col-sm-6 col-md-4">
+
+					<div class="Footer-phone">
+						<span class="glyphicon glyphicon-earphone Footer-phoneIcon"></span> 01 8000 515 900
+					</div>
+				</div>
+				<address class="Footer-contact col-xs-12 col-sm-6 col-md-8">
+					Universidad EAFIT, Cra 49 N° 7 Sur-50, Medellín - Colombia • Medellín: (57)(4)2619500<br>
+					<a class="Footer-link" href="http://www.eafit.edu.co/bogota">EAFIT Bogotá</a> |
+					<a class="Footer-link" href="http://www.eafit.edu.co/pereira">EAFIT Pereira</a> |
+					<a class="Footer-link" href="http://www.eafit.edu.co/llanogrande">EAFIT Llanogrande</a><br>
+					<a class="Footer-link"
+						href="http://www.eafit.edu.co/institucional/reglamentos/tratamiento-proteccion-datos-personales">Política
+						de protección de datos personales</a> |
+					<a class="Footer-link"
+						href="http://www.eafit.edu.co/institucional/contacto/Paginas/contacto-eafit.aspx">Contáctenos</a>
+				</address>
+			</div>
+		</div>
+	</footer>
+	<!-- Javascript -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.backstretch.min.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/CambioLogin.js"></script>
+
+	<!--[if lt IE 10]>
+<script src="js/placeholder.js"></script>
+        <![endif]-->
+	</div>
+	<!--#pswrapper-->
+<script src="js/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=917099841"></script>
+
+</html>
